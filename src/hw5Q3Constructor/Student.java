@@ -26,6 +26,7 @@ public class Student {
 	public Student() {// Default Constructor declared
 		System.out.println("\nThis is from default Constructor of Student class.\n");
 
+		System.out.println("\n******************************************\n");
 	}
 
 	public Student(String stName, int stID, char sex, float grade, boolean isProgrammer ) {// Parameterized
