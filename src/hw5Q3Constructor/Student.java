@@ -28,7 +28,7 @@ public class Student {
 
 		System.out.println("\n******************************************\n");
 	}
-
+    //parameterized Constructor 
 	public Student(String stName, int stID, char sex, float grade, boolean isProgrammer ) {// Parameterized
 																									// Constructor
 
