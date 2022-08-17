@@ -25,21 +25,16 @@ public class Temperature {
 		int tmp = scanner.nextInt();
 		if (tmp < 32) {
 			System.out.println("Freezing");
+		} else if (tmp >= 32 && tmp < 55) {
+			System.out.println("Pleasant");
+		} else if (tmp >= 55 && tmp < 73) {
+			System.out.println("Getting warm");
+		} else if (tmp >= 73 && tmp < 101) {
+			System.out.println("Hot");
+		} else {
+			System.out.println("Ice on my head");
 		}
-			else if (tmp >= 32 && tmp < 55 ) {
-				System.out.println("Pleasant");
-			}
-			else if (tmp >= 55 && tmp < 73 ) {
-				System.out.println("Getting warm");
-			}
-			else if (tmp >= 73 && tmp < 101) {
-				System.out.println("Hot");
-			}
-			else {
-				System.out.println("Ice on my head");
-			}
-			scanner.close();
-			
-			}
-}
+		scanner.close();
 
+	}
+}

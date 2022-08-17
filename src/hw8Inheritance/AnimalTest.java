@@ -10,7 +10,6 @@ package hw8Inheritance;
 * Paste your github link below.
 */
 public class AnimalTest {
-
 	public static void main(String[] args) {
 		Animal animal = new Animal();
 		animal.animalInfo();
@@ -61,7 +60,5 @@ public class AnimalTest {
 		cobra.snakeInfo();// Snake Parent & Cobra Child
 		cobra.reptileInfo();// Reptile Parent & Snake Child
 		cobra.animalInfo();// Multilevel Inheritance Animal Parent & Reptile Child
-
 	}
-
 }
