@@ -14,7 +14,8 @@ public class Employee {
     private int empAge;
     private char empSex;
     private boolean usCitizen;
-	public String getEmpNameString() {// getter is return type method
+	
+    public String getEmpNameString() {// getter is return type method
 		return empNameString;
 	}
 	public void setEmpNameString(String empNameString) {// setter is void type parameterized method

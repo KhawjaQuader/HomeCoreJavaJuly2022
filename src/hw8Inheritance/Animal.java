@@ -20,7 +20,6 @@ package hw8Inheritance;
  * Organize the code. Push the code in Github. 
  * Paste your github link below.
  */
-
 public class Animal {
 	public void animalInfo() {
 		System.out.println("This method is from Animal Class");

@@ -31,7 +31,9 @@ public interface University extends College, Hospital{
 	public static void library() {// static method created
 		System.out.println("This is a static method from University interface");
 	/*
-	 * Q = i) how many keywords are used for the inheritance in Interface, answer by Java comments?  Can an interface inherit other Interfaces, or a regular class or abstract class by extends key word? How many inheritance is possible? Use the Interface -- "University" to answer my questions (University extends College, Hospital) (by multiple line comments).  		}
+	 * Q = i) how many keywords are used for the inheritance in Interface, answer by Java comments? 
+	 *  Can an interface inherit other Interfaces, or a regular class or abstract class by extends key word?
+	 *  How many inheritance is possible? Use the Interface -- "University" to answer my questions (University extends College, Hospital) (by multiple line comments).  		}
 	 */
 	//Ans:-
 	// 1 key words (extends)

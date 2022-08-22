@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw10Abstraction.copy;
 
 /*
  *Create another regular Class NYUniversity, 
@@ -7,7 +7,7 @@ package hw8Abstraction;
  */
 public class NYUniversity {// regular class created
 	public void anthropology() {// Non abstract or Implemented method
-		System.out.println("This is anthropology non abstract void type method implemented");
+		System.out.println("This is anthropology non abstract method implemented");
 	}
 
 }

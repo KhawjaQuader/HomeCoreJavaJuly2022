@@ -29,7 +29,8 @@ public abstract class MedicalSchool extends NursingSchool {
 	/*
 	 * ii) You have 3 abstract class names --MedicalSchool, EngineeringSchool, and
 	 * NursingSchool. how many keywords are used for the inheritance in Java for
-	 * Abstract Class?  Can an Abstract Class inherit other Abstract Class or a
+	 * Abstract Class? 
+	 *  Can an Abstract Class inherit other Abstract Class or a
 	 * regular class or interface by extends keyword? How many inheritances is
 	 * possible by an Abstract Class? (use java comments for the above question) Use
 	 * one of above Abstract Class (MedicalSchool extends NursingSchool)  and use
@@ -38,5 +39,5 @@ public abstract class MedicalSchool extends NursingSchool {
 	// Ans:-
 	// 1 key words (extends)
 	// An abstract class can inherit only one abstract class or only one regular class by extends key words
-	// An abstract class can not inherit interface by extends key words
+	// An abstract class can not inherit interface by extends key word
 }

@@ -12,14 +12,16 @@ package hw8Abstraction;
  * Now, Can you create a Constructor inside University interface? If yes, create default Constructor on University interface. If no, comment out the 'created constructor' and answer why not?
  */
 public interface University {// interface created
-	// method declared below
-	public void classSize();
+
+	// public University() {} Constructor created
+	// An Interface in Java doesn't have a constructor because all data members in
+	// interfaces are public static final by default, they are constants
+
+	// method declared below also a type of abstract method we may call
+	public void classSize();//
 
 	public void playGround();
 
-	public void teacher();
-
-//public University() {} Constructor created
-//An Interface in Java doesn't have a constructor because all data members in interfaces are public static final by default, they are constants
+	public abstract void teacher();
 
 }

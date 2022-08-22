@@ -10,42 +10,42 @@ package hw8Inheritance;
 * Paste your github link below.
 */
 public class AnimalTest {
-	public static void main(String[] args) {
-		Animal animal = new Animal();
-		animal.animalInfo();
+	public static void main(String[] args) {//main method
+		Animal animal = new Animal();//class instantiate/object created/constructor initialized
+		animal.animalInfo();//animal object is calling animalinfo method from animal class
 
 		System.out.println("\n----------------------------------------------\n");
 		Mammal mammal = new Mammal();
-		mammal.mammalInfo();
+		mammal.mammalInfo();//mammal object is calling mammalInfo method from Mammal Class
 		mammal.animalInfo();// Single Inheritance & Animal Parent & Mammal child class
-
+		// Also Hierarchical inheritance Animal Parent & Mammal Child                   
 		System.out.println("\n----------------------------------------------\n");
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
 		reptile.animalInfo();// Single Inheritance & Animal Parent & Reptile child class
-
+		//Also Hierarchical inheritance Animal Parent & Reptile Child
 		System.out.println("\n----------------------------------------------\n");
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();// Single Inheritance & Animal Parent & Birds child class
-
+		//Also Hierarchical inheritance Animal Parent & Birds Child
 		System.out.println("\n----------------------------------------------\n");
 		Dog dog = new Dog();
 		dog.dogInfo();
 		dog.mammalInfo();// Mammal Parent & Dog Child
-		dog.animalInfo();// Hierarchical inheritance Animal Parent & Mammal Child
+		dog.animalInfo();
 
 		System.out.println("\n----------------------------------------------\n");
 		Snake snake = new Snake();
 		snake.snakeInfo();
 		snake.reptileInfo();// Reptile Parent & Snake Child
-		snake.animalInfo();// Hierarchical inheritance Animal Parent & Reptile Child
+		snake.animalInfo();
 
 		System.out.println("\n----------------------------------------------\n");
 		Robin robin = new Robin();
 		robin.robinInfo();
 		robin.birdsInfo();// Birds Parent & Robin Child
-		robin.animalInfo();// Hierarchical inheritance Animal Parent & Birds Child
+		robin.animalInfo();
 
 		System.out.println("\n----------------------------------------------\n");
 		BullDog bullDog = new BullDog();

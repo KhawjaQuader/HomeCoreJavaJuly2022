@@ -18,7 +18,7 @@ public class ColumbiaUniversity {// regular class created
 
 //public abstract void chemistry(); In regular class Abstract method is not possible to declare.
 	public void biology() {// Non abstract or Implemented method
-		System.out.println("This is biology non abstract method implemented");
+		System.out.println("This is biology non abstract void type method implemented");
 	}
 
 	public ColumbiaUniversity() {// Constructor created & Declared

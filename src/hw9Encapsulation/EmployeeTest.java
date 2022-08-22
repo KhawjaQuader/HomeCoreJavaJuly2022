@@ -12,7 +12,7 @@ public class EmployeeTest {
 	public static void main(String[] args) {
 		Employee employee = new Employee();
 		// In encapsulation in Test class need to put/create argument/value inside
-		// parameterized method
+		// parameterized method  
 		employee.setEmpNameString("James Bond");
 		employee.setEmpAge(55);
 		employee.setEmpSex('M');
